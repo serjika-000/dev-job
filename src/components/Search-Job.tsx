@@ -23,7 +23,7 @@ const SearchJob: React.FC<SearchJobProps> = ({ data, search, setFilteredData }) 
         return item.position.toLowerCase().includes(searchTerm);
       });
 
-      console.log("Filtered Results:", results); // ნახე რა შედეგებს ვიღებთ
+      console.log("Filtered Results:", results); 
       setFilteredData(results);
     };
 
